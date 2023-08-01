@@ -32,6 +32,11 @@ dependencies {
             "org.assertj:assertj-core:${assertJVersion}",
             "org.projectlombok:lombok:${lombokVersion}",
             "ch.qos.logback:logback-classic:${logbackVersion}"
+    
+    testImplementation group: 'org.slf4j', name: 'slf4j-api', version: '2.0.7'
+    testImplementation group: 'org.slf4j', name: 'slf4j-jdk14', version: '2.0.7'
+    testImplementation group: 'org.slf4j', name: 'slf4j-simple', version: '2.0.7'
+    testImplementation group: 'org.slf4j', name: 'slf4j-log4j12', version: '2.0.7', ext: 'pom'    
 }
 
 test {
