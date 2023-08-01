@@ -19,4 +19,4 @@ jobs:
         distribution: 'zulu'
         java-version: '17'
     - name: Build with Gradle
-      run: gradle clean test --warning-mode=all
+      run: gradle clean test
