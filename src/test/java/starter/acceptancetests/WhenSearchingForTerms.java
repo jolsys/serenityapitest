@@ -23,7 +23,7 @@ class WhenSearchingForTerms {
         actor.attemptsTo(
                 NavigateTo.theSearchHomePage(),
                 LookForInformation.about("red"),
-                Ensure.that(TheWebPage.title()).containsIgnoringCase("laalalal")
+                Ensure.that(TheWebPage.title()).containsIgnoringCase("red")
         );
     }
 
